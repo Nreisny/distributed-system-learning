@@ -1,18 +1,10 @@
 import { BrowserRouter, Routes, Route, Link} from 'react-router-dom';
+import Home from './Home.tsx'
+import Sharding from './Sharding.tsx'
 import './App.css';
 
 function App(){
-  function Home(){
-    return(
-      <h1>Home</h1>
-    );
-  }
-  function Sharding(){
-    return(
-      <h1>Sharding</h1>
-    );
-  }
-  return(
+return (
     <BrowserRouter>
       <nav>
         <Link to='/' className='home-li active-link'>Home</Link>
