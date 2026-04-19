@@ -1,0 +1,25 @@
+nav {
+  display: flex;
+  background-color: var(--primary-color);
+  border-bottom: 1px solid var(--hover-color);
+}
+
+.home-li {
+  margin-right: auto;
+}
+
+nav a {
+  display: flex;
+  text-decoration: none;
+  color: var(--text-color);
+  padding: 1em 2em;
+  transition: background-color 150ms ease;
+}
+
+nav a:hover {
+  background-color: var(--hover-color);
+}
+
+nav .active-link {
+  border-bottom: 2px solid var(--text-color);
+}
