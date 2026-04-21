@@ -1,4 +1,4 @@
-.setupContainer {
+.container {
   margin: 2rem;
   display: flex;
   flex-direction: column;
@@ -8,7 +8,7 @@
   max-width: 20rem;
 }
 
-.setupCard {
+.card {
   color: black;
   display: flex;
   flex-direction: column;
@@ -16,7 +16,7 @@
   gap: 1rem;
 }
 
-.setupCard label {
+.card label {
   font-size: 1rem;
   width: 100%;
 }
@@ -28,7 +28,7 @@ button[type="button"] {
   padding: 0.4rem;
 }
 
-.setupInputArea {
+.inputArea {
   display: flex;
   width: 100%;
 }
